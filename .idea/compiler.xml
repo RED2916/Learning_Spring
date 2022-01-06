@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springmvc-12-t2" />
+        <module name="spring-01-ioc" />
+        <module name="spring-02-hellospring" />
+        <module name="spring-05-autowire" />
+        <module name="spring-10-mybatis" />
+        <module name="springmvc-11-Test" />
+        <module name="spring-03-ioc2" />
+        <module name="spring-09-aop" />
+        <module name="spring-06-annotation" />
+        <module name="T1" />
+        <module name="spring-08-proxy" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-01-ioc" target="1.5" />
+      <module name="spring-02-hellospring" target="1.5" />
+      <module name="spring-03-ioc2" target="1.5" />
+      <module name="spring-05-autowire" target="1.5" />
+      <module name="spring-06-annotation" target="1.5" />
+      <module name="spring-08-proxy" target="1.5" />
+      <module name="spring-09-aop" target="1.5" />
+      <module name="spring-10-mybatis" target="1.5" />
+      <module name="springmvc-11-Test" target="1.5" />
+      <module name="springmvc-12-t2" target="1.5" />
+      <module name="T1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

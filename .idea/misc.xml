@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-11-Test" />
+    <file type="web" url="file://$PROJECT_DIR$/T1" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/T1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-01-ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-02-hellospring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-03-ioc2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-05-autowire/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-06-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-08-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-09-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-10-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-11-Test/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-12-t2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

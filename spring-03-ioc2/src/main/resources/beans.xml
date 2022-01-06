@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    p优先级大于constructor标签,用了c不能用constructor-arg标签,c\p不可混用-->
+    <bean id="user" class="com.tydic.pojo.User" p:userId="123" p:userName="zcg">
+<!--        <property name="userName" value="czh"></property>-->
+<!--        <constructor-arg index="0" value="hzc"/>-->
+<!--        <constructor-arg type="java.lang.String" value="hh" />-->
+<!--        <constructor-arg type="java.lang.String" value="hehe" />-->
+    </bean>
+    <bean id="Tuser" class="com.tydic.pojo.UserT" name="ut" scope="singleton">
+        <property name="userTName" value="UserTest"/>
+        <property name="user">
+            <ref bean="user"/>
+        </property>
+        <property name="strings">
+            <array>
+                <value>let me see see</value>
+                <value>what happen?</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>So, what happen now?</value>
+                <value>I do not understand!</value>
+            </list>
+        </property>
+        <property name="maps">
+            <map>
+                <entry key="c" value="zh"></entry>
+                <entry key="zh" value="c"></entry>
+            </map>
+        </property>
+        <property name="sets">
+            <set>
+                <value>setcontent1</value>
+                <value>setcontent2</value>
+            </set>
+        </property>
+        <property name="theNull">
+            <null></null>
+        </property>
+        <property name="info">
+            <props>
+                <prop key="driver" >czh</prop>
+                <prop key="old">?</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
